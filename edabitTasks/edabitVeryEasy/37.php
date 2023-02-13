@@ -17,11 +17,16 @@ makesTen(1, 9) ➞ "Found"
 function makesTen($a, $b) {
 
 
-    if($a+$b===10 && $a===10 && $b===10 && $a!==$b){
-        return "Found";
+    if($a!==$b){
+        if($a+$b===10 || $a===10 || $b===10){
+            return "Found";
+        } else{
+            return "Not found";
+        }
     } else{
         return "Not found";
     }
+
 
 }
 

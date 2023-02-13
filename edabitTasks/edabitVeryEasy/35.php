@@ -27,7 +27,7 @@ function footballPoints($wins, $draws, $losses) {
     }
 }
 
-echo footballPoints(3, 4, 2);
+echo footballPoints(5, 0, 2);
 
 
 ?>

@@ -16,11 +16,11 @@ valueAt([1, 2, 3, 4], 6.535355314 / 2) ➞ 4
 
 
 function valueAt($arr, $i) {
-
+    return $arr[floor($i)];
 }
 
 
 
-echo valueAt([1, 2, 3, 4, 5, 6], 10 / 2);
+echo valueAt([1, 2, 3, 4], 6.535355314 / 2);
 
 ?>

@@ -28,7 +28,7 @@ function profitableGamble($prob, $prize, $pay) {
         }
 }
 
-echo profitableGamble(0.9, 3, 2);
+echo profitableGamble(0.2, 50, 9);
 
 
 ?>
